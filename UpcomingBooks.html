@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Grow Together(RGT)</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        table{
+            background-color:  rgb(44, 130, 180);
+            border: 5px solid rgb(44, 130, 180);
+            
+            text-align: center;
+        margin:auto;
+        height: 400px;
+        border-radius: 15px;
+        }
+        tr,th{
+            background-color: rgb(25, 0, 255);
+            border-radius: 15px;font-size: 20px;color: azure;
+        }
+        tr,td{
+        font-size: 20px;
+            background-color: rgb(0, 68, 255);
+            border-radius: 15px;
+        }
+        #author{
+            width: 200px;
+        }
+        #Nameofbook{
+            width: 200px;
+        }
+        #SNO{
+            width: 100px;
+        }
+        #Date{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="index.html"> <img src="logo.png" id="lego" title="RGT"></a></div>
+                <ul>
+                    <li><a href="index.html" title="Back To Home Page">HOME</a> </li>
+                    <li><select id="select" name="links" onchange="window.location.href=this.value;">
+                        <option  style="font-size: large;" title="All Books" value="index.html"> All BOOKS</option>
+                        <option value="EnglishNovel.html"> English Novel</a></option>
+                           <option value="NepaliNovel.html"> Nepali Novel</option>
+                            <option value="CurricularBooks.html">Curricular Books</option>
+                            <option value="Question.html">Question Papers</option>
+                    </select></li>
+                   
+                    <li><a href="UpcomingBooks.html" title="Upcoming Boks" >UPCOMING </a></li>
+                    <input type="text" placeholder="Search Books" id="search"  title="Search Here">
+                </ul>
+            
+            </div>
+            <hr >
+        </nav>
+      <div class="maindiv">
+            <table border="2px" cellspacing="10px" cellpadding="20px"
+            >
+                <tr>
+                    <th id="SNO">S.No</th>
+                    <th id="Nameofbook">Name Of The Book</th>
+                    <th id="author">Author</th>
+                    <th id="Date">Expected Date To Come</th>
+                </tr>
+<tr>
+<td>1.</td>
+<td>SETO DHARTI</td>
+<td>AMAR NEUPANE</td>
+<td>01/02/2023</td>
+</tr>
+
+                <tr>
+<td>2.</td>
+<td>MAHAKO MA</td>
+<td>MADAN KRISHNA</td>
+<td>29/04/2023</td>
+</tr>
+
+<tr>
+    <td>3.</td>
+    <td title="Principle Of Physics">Physics (12)</td>
+    <td>Curricular Book</td>
+    <td>09/12/2023</td>
+    </tr>
+    <tr>
+        <td>4.</td>
+        <td>How to win friends and influence people</td>
+        <td>DALE CARNEGIE</td>
+        <td>01/01/2024</td>
+        </tr>
+
+<tr>
+<td>5.</td>
+ <td>The Great Gatsby</td>
+ <td>F. Scott Fitzgerald</td>
+<td>09/09/2023</td>
+</tr>
+
+<tr>
+<td>6.</td>
+<td>The Alchemist</td>
+<td>Poulo Coelho</td>
+<td>27/12/2023</td>
+</tr>
+
+ <tr>
+  <td>7.</td>
+  <td>The Color Purple</td>
+<td>alice Walker</td>
+<td>09/11/2023</td>
+</tr>
+            </table>
+        </div>
+        <br>
+<br> 
+<br>
+<hr>
+<hr>
+        <button onclick="document.location='index.html'" style="height: 30px; width: 150px; border: 1px solid rgb(58, 55, 55); border-radius: 5px; background-color: aquamarine; cursor: pointer; margin-left: 50%; margin-top: 15px;" title="Back To Home Page " >GO BACK</button>
+        </body>

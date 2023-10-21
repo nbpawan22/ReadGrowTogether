@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Grow Together(RGT)</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <style>
+        *{
+    padding: 1px;;
+    margin: 0px;
+    background-color: rgb(44, 130, 180);
+    color: black;
+    font-size: 15px;
+    letter-spacing:0.2px;
+    text-decoration: none;
+}
+.navbar{
+    margin: 0;
+    top: 0;
+    bottom: 0;
+background-color :rgb(44, 130, 180);
+z-index: 1;
+    position:sticky;
+    color: rgb(245, 222, 179);
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+.navdiv{
+   padding-top: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lego{
+padding-left: 0;
+    align-items: center;
+   border-radius: 4em;
+ height: 5em;
+ width: 5em;
+}
+hr{
+    border: 1px solid #22486b;
+   margin-left: 2em;
+   margin-right: 2em;
+   padding: 0em;
+}
+li{
+    list-style: none;display: inline-block;margin-right: 2em;
+}
+li a{
+    color: rgb(0, 0, 0); font-size: 1.2em;
+    
+}
+#search{
+    color: black;
+    width: 120px;
+        height: 25px;
+    border:2px solid rgb(7, 81, 151);
+ border-radius: 13px;
+ background-color: rgb(255, 255, 255);
+}
+#select{
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+.maindiv{
+    padding-left: 50px;
+    display: flex;flex-wrap: wrap;
+    padding-top: 15px;padding-bottom: 10px;
+    margin-left: 30%;margin-right: 25%;
+}
+.subdiv{
+margin-right: 5px;
+    margin-top: 15px;
+    border: 2px solid rgb(41, 40, 40);
+    height: 30px;width: 300px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+.subdiv:hover{
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
+    </style>
+</head>
+<body>
+    
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="index.html"> <img src="logo.png" id="lego" title="RGT"></a></div>
+                <ul>
+                    <li><a href="index.html" title="Back To Home Page">HOME</a> </li>
+                    <li><select id="select" name="links" onchange="window.location.href=this.value;">
+                        
+                            <option value="CurriculurBooks.html">Curriculur Books</option>
+                    </select></li>
+                   
+                    <li><a href="UpcomingBooks.html" title="Upcoming Boks" >UPCOMING </a></li>
+                    <input type="text" placeholder="Search Books" id="search"  title="Search Here">
+                </ul>
+            
+            </div>
+            <hr >
+        </nav>
+        <div class="maindiv">
+            <div class="subdiv" onclick="document.location='#'">
+             Class 1  
+            </div>
+        
+            <div class="subdiv" onclick="document.location='#'">
+                Class 2 
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 3  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 4  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 5  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 6  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 7  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 8  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 9  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 10  
+               </div>
+
+               <div class="subdiv" onclick="document.location='class11.html'">
+                Class 11  
+               </div>
+
+               <div class="subdiv" onclick="document.location='#'">
+                Class 12 
+               </div>
+        </div>
+        <br> 
+<br>
+<hr>
+<hr>
+        <button onclick="document.location='index.html'" style="height: 30px; width: 150px; border: 1px solid rgb(58, 55, 55); border-radius: 5px; background-color: aquamarine; cursor: pointer; margin-left: 50%; margin-top: 15px; margin-bottom:20px ;" title="Back To Home Page " >GO BACK</button>
+        </body>

@@ -1,0 +1,105 @@
+*{
+    padding: 1px;;
+    margin: 0px;
+    background-color: rgb(44, 130, 180);
+    color: black;
+    font-size: 15px;
+    letter-spacing:0.2px;
+    text-decoration: none;
+}
+.navbar{
+    margin: 0;
+    top: 0;
+    bottom: 0;
+background-color :rgb(44, 130, 180);
+z-index: 1;
+    position:sticky;
+    color: rgb(245, 222, 179);
+    font-size: 1.2em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+.navdiv{
+   padding-top: 0.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#lego{
+padding-left: 0;
+    align-items: center;
+   border-radius: 4em;
+ height: 5em;
+ width: 5em;
+}
+hr{
+    border: 1px solid #22486b;
+   margin-left: 2em;
+   margin-right: 2em;
+   padding: 0em;
+}
+li{
+    list-style: none;display: inline-block;margin-right: 2em;
+}
+li a{
+    color: rgb(0, 0, 0); font-size: 1.2em;
+    
+}
+#search{
+    color: black;
+    width: 120px;
+        height: 25px;
+    border:2px solid rgb(7, 81, 151);
+ border-radius: 13px;
+ background-color: rgb(255, 255, 255);
+}
+@media (min-width:0px) and (max-width:400px){
+    #search{
+        height: 2.5em;
+        width:160px;
+    }
+}
+#select{
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+option{
+    color: azure;
+    cursor: pointer;
+}
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 15px;padding-left: 30px;padding-right: 30px;padding-bottom: 10px;
+}
+.subdiv{
+    margin-top: 15px;
+    border: 2px solid rgb(41, 40, 40);
+    height: 300px;width: 200px;
+    border-radius: 5px;
+}
+.subdiv:hover{
+    border: 3px solid rgb(255, 255, 255);
+}
+#img1{
+    padding: 8px;
+    height: 240px; width: 185px;
+    border-radius:10px ;
+}
+#readbutton{
+    width: 185px;height: 30px;text-align: center;padding-left: 3px;
+    font-size: large;margin-left: 8px;
+    border: 2px solid rgb(44, 43, 43);
+    background:radial-gradient(white,white,black);
+    border-radius: 7px;
+}
+#readbutton:hover{
+    background:radial-gradient(black,black,white);
+    color: white;
+    transition: 2s;
+}
